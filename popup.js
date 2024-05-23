@@ -6,6 +6,6 @@ document.getElementById("get-tab-title-button").addEventListener("click", async 
   
     
     const tabTitleElement = document.getElementById("tab-title");
-    tabTitleElement.textContent = `Current Tab Title: ${tab.title}`;
+    tabTitleElement.textContent = `${tab.title}`;
   });
   
