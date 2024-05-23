@@ -1,0 +1,22 @@
+{
+    "name": "tabname",
+    "version":"1.0",
+    "manifest_version":3,
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "/images/chrome.png",
+
+        "32": "/images/chrome.png",
+
+        "48": "./images/chrome.png"
+    }
+
+}

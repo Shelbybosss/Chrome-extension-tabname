@@ -1,0 +1,50 @@
+.body{
+    background: grey;
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background: lightblue;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    margin: none;
+    border: none;
+    background-color: rgb(235, 251, 64);
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    margin-top: 5%;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
+    border: solid black;
+}
+
+.btn:not(:hover){
+    transition: 1s ease-out;
+}
+
+.title{
+    width: 200px;
+    background-color: darkorchid;
+    color:white;
+    margin-top: 20%;
+    text-align:center;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-left: 18%;
+
+}
